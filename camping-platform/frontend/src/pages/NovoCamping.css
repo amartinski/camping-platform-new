@@ -1,0 +1,77 @@
+/* ======== Container Principal ======== */
+.novo-camping-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* ======== Formulário ======== */
+  .form-camping {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  /* ======== Botão de Cadastro ======== */
+  button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #218838;
+  }
+  
+  /* ======== Mensagem de Feedback ======== */
+  .mensagem {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  
+  /* ======== Mapa para Seleção da Localização ======== */
+  .mapa {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  /* ======== Coordenadas Selecionadas ======== */
+  .coordenadas {
+    font-size: 1rem;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* ======== Responsividade ======== */
+  @media (max-width: 768px) {
+    .novo-camping-container {
+      max-width: 90%;
+    }
+  }
+  
