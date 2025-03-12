@@ -1,0 +1,38 @@
+CAMPING-PLATFORM
+│── camping-platform
+│   │── frontend
+│   │   │── node_modules/
+│   │   │── public/
+│   │   │── src/
+│   │   │   │── assets/
+│   │   │   │── components/
+│   │   │   │── pages/
+│   │   │   │   │── CampingDetalhes.js
+│   │   │   │   │── Campings.js
+│   │   │   │   │── Home.js
+│   │   │   │   │── NovoCamping.js
+│   │   │   │── services/
+│   │   │   │── App.css
+│   │   │   │── App.js
+│   │   │   │── App.test.js
+│   │   │   │── index.css
+│   │   │   │── index.js
+│   │   │   │── logo.svg
+│   │   │   │── reportWebVitals.js
+│   │   │   │── setupTests.js
+│   │   │── .gitignore
+│   │   │── package-lock.json
+│   │   │── package.json
+│   │   │── README.md
+│   │   │── webpack.config.js
+│   │── models/
+│   │   │── camping.js
+│   │── node_modules/
+│   │── routes/
+│   │   │── campings.js
+│   │── .env
+│   │── package-lock.json
+│   │── package.json
+│   │── server.js
+│   │── index.html
+│   │── Rota Aventura.pdf
